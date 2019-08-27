@@ -1,0 +1,115 @@
+#dynamic{
+  width: 100%;
+  height: 400px;
+  background-color: #EEEEEE;
+  flex: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 10px;
+  display: inline-block;/*展示在这一行内*/
+  overflow: scroll;/*可以超出区域外*/
+}
+#search_img{
+  background-image: url("../images/dynamic/search.svg");
+}
+#search_center div:nth-child(1){
+  width:26px;
+  height:26px;
+  background-image: url("../images/dynamic/search.svg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#search_center div:nth-child(2){
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+/*头像*/
+#language_photo{
+  height: 48px;
+  width: 48px;
+  margin-top: 4px;
+  margin-left: 4px;
+  background-repeat: no-repeat;
+}
+
+/*语言条目分区*/
+#language_left{
+  flex: 1;
+  height: 48px;
+}
+#language_left div{
+  margin: 0.1px;
+}
+#language_center{
+  flex: 15;
+  height: 48px;
+}
+#language_center div{
+  margin: 0.1px;
+}
+#language_right{
+  flex: 1;
+  height: 48px;
+  width: 60px;
+}
+#language_right div{
+  margin: 0.1px;
+}
+
+/*语言栏最大层*/
+#language_bar{
+  height: 48px;
+  width:100%;
+  background-color: #FAFAFA;
+  margin: 0;
+  padding: 10px;
+  margin-top: 2px;
+  position: relative;
+}
+
+/*语言栏内容*/
+#language_content{
+  font-size: 100%;
+  text-align: left;
+  height: 22px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  margin-left: 30px;
+}
+/*聊天内容*/
+.nickname{
+  height: 16px;
+  width: 100%;
+  font-size: 100%;
+}
+
+.chat_msg{
+  height: 26px;
+  flex: 1;
+  color: #757575;
+  font-size: 90%;
+  line-height: 20px;
+
+}
+/*音量控制*/
+.silent{
+  height: 20px;
+  width:100px;
+  background-image: url("../images/dynamic/pb.svg");
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+/*时间设置*/
+.language_time{
+  height: 20px;
+  width: 100px;
+  font-weight: 400;
+  font-size: 100%;
+  color: #9e9e9e;
+  text-align: left;
+  line-height: 20px;
+}

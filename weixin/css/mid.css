@@ -1,0 +1,70 @@
+#mid{
+  width: 100%;
+  height: 400px;
+  background-color: #EEEEEE;
+  flex: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 10px;
+  display: inline-block;/*展示在这一行内*/
+  overflow: scroll;
+}
+#all_photo{
+  height: 48px;
+  width: 48px;
+  margin-top: 4px;
+  margin-left: 4px;
+  background-repeat: no-repeat;
+}
+#all_left{
+  flex: 1;
+  height: 48px;
+}
+#all_left div {
+  margin: 10px;
+}
+#moments {
+  height: 48px;
+  width: 100%;
+  background-color: #FAFAFA;
+  margin: 0;
+  padding: 5px;
+  margin-top: 2px;
+  position: relative;
+}
+#all_center{
+  flex: 10;
+  height: 48px;
+  font-size: 16px;
+}
+#all_center div {
+  margin: 10px;
+}
+#all_right{
+  flex: 1;
+  height: 48px;
+
+}
+
+#all_right div{
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+
+
+#all_arrow {
+  height: 16px;
+  width: 16px;
+  background-repeat: no-repeat;
+
+
+}
+.friend_photo{
+  height: 40px;
+  width: 40px;
+  background-image: url("../images/dynamic/tx.svg");
+  background-repeat: no-repeat;
+
+}
+

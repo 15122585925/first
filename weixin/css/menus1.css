@@ -1,0 +1,79 @@
+#menus{
+  width: 100%;
+  height: 60px;
+  background-color: #fafafa;
+}
+
+#m_chat{
+  flex: 1;
+  height: 60px;
+}
+
+#m_list{
+  flex: 1;
+  height: 60px;
+}
+#m_find{
+  flex: 1;
+  height: 60px;
+}
+#m_my{
+  flex: 1;
+  height: 60px;
+}
+#chat{
+  height: 54px;
+  width: 54px;
+  background-image: url("../images/menus/vx.svg");
+  background-repeat: no-repeat;
+  margin-top: 12px;
+  margin-left: 40%;
+}
+#list{
+  height: 54px;
+  width: 54px;
+  background-image: url("../images/menus/txl1.svg");
+  background-repeat: no-repeat;
+  margin-top: 12px;
+  margin-left: 40%;
+}
+#find{
+  height: 54px;
+  width: 54px;
+  background-image: url("../images/menus/fx.svg");
+  background-repeat: no-repeat;
+  margin-top: 12px;
+  margin-left: 40%;
+}
+#my{
+  height: 54px;
+  width: 54px;
+  background-image: url("../images/menus/w.svg");
+  background-repeat: no-repeat;
+  margin-top: 12px;
+  margin-left: 40%;
+}
+#wechat_test_chat{
+  color: #9e9e9e;
+  margin-top: 32px;
+  font-size: 80%;
+  margin-left: 2px;
+}
+#wechat_test_list{
+  color: #9e9e9e;
+  margin-top: 32px;
+  font-size: 80%;
+  margin-left: -2px;
+}
+#wechat_test_find{
+  color: #9e9e9e;
+  margin-top: 32px;
+  font-size: 80%;
+  margin-left: 6px;
+}
+#wechat_test_my{
+  color: #9e9e9e;
+  margin-top: 32px;
+  font-size: 80%;
+  margin-left: 6px;
+}
